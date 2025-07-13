@@ -18,6 +18,13 @@ function App() {
       <div>
         <WelcomeMessage />
       </div>
+    ),
+    (
+      <div>
+        <Header />
+        <MainContent />
+        <Footer />
+      </div>
     )
   );
 }
